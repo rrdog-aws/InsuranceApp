@@ -1,0 +1,4 @@
+2025-08-29 12:57:59,602 - ERROR - cid:wrapper:48 - Cannot find /Users/rrdog/Library/Python/3.9/lib/python/site-packages/cid/internal/data/cctd/cctd_view.json file
+2025-08-29 12:59:35,236 - ERROR - cid:wrapper:48 - Cannot find /Users/rrdog/Library/Python/3.9/lib/python/site-packages/cid/internal/data/cctd/cctd_view.json file
+2025-08-31 12:36:28,430 - WARNING - cid.internal.common:aws_login:85 - Failed to get credentials for Bubblewand account. Will try to use Isendot.
+2025-08-31 12:36:28,431 - WARNING - cid.internal.common:aws_login:86 - You can specify --domain mycustomer.com OR --bubblewand_account_id 123456789012 next time.
