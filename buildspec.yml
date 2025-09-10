@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing dependencies"
+      - yum install -y zip
+  build:
+    commands:
+      - echo "Packaging application..."
+      - zip -r insurance-app.zip . -x "*.git*"
+artifacts:
+  files:
+    - insurance-app.zip
