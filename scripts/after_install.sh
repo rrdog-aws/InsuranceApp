@@ -1,9 +1,11 @@
 #!/bin/bash
-# Set permissions
-chmod 755 /var/www/html/*
+# Set ownership for nginx/php-fpm
+chown -R nginx:nginx /var/www/html
 
-# Restart nginx
+# Set directory and file permissions
+find /var/www/html -type d -exec chmod 755 {} \;
+find /var/www/html -type f -exec chmod 644 {} \;
+
+# Restart services
 systemctl restart nginx
-
-# Restart php-fpm
 systemctl restart php-fpm
