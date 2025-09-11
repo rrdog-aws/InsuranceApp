@@ -328,7 +328,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($_POST['purchase'])) {
 <body>
     <div class="header">
         <div class="container text-center">
-            <h1>Car Try here Insurance</h1>
+            <h1>Car Insurance</h1>
             <div class="auth-buttons mt-3">
                 <a href="https://eu-north-183zgsb0xm.auth.eu-north-1.amazoncognito.com/login?client_id=4h8u65ctqp5l0dabrsror66ukt&response_type=code&scope=email+openid+phone&redirect_uri=https%3A%2F%2Fapp.insurance.rrdog.people.aws.dev%2Fhello-world.php" class="btn btn-primary login-btn">
                     <i class="fas fa-sign-in-alt"></i> Login/Register
